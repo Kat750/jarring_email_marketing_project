@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style for desktop */
+        @media screen and (min-width: 600px) {
+            .container {
+                width: 600px;
+                margin: 0 auto;
+            }
+
+            .column {
+                width: 50%;
+                display: inline-block;
+                vertical-align: top;
+            }
+        }
+
+        /* Styles for mobile */
+        @media screen and (max-width: 599px) {
+            .container {
+                width: 100%;
+            }
+
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container for whole email -->
+    <table class="container" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <!-- Header with image -->
+                <table width="100%" bgcolor="#f5f5f5">
+                    <tr>
+                        <td>
+                            <a href="https://katherinecunniffe.pythonanywhere.com/ ">
+                                <img src="https://picsum.photos/600/200?random=1" alt="Lead Image" width="100%" style="display: block;">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- Two-column blocks -->
+                <table width="100%">
+                    <tr>
+                        <td class="column" style="width: 50%; padding: 10px; text-align: center;">
+                            <h2>Column 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies semper eros. Nam ultricies, nibh nec sodales tincidunt, nisl ex cursus odio, sit amet faucibus ligula ante a risus. Sed eros leo, pretium at velit quis, malesuada luctus massa. Mauris molestie massa at mauris suscipit, eget auctor sem fermentum.</p>
+                        </td>
+                        <td class="column" style="width: 50%; padding: 10px; text-align: center;">
+                            <h2>Column 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies semper eros. Nam ultricies, nibh nec sodales tincidunt, nisl ex cursus odio, sit amet faucibus ligula ante a risus. Sed eros leo, pretium at velit quis, malesuada luctus massa. Mauris molestie massa at mauris suscipit, eget auctor sem fermentum. </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- Call to Action Button -->
+                <table width="100%">
+                    <tr>
+                        <td align="center" style="padding: 20px;">
+                            <a href="https://github.com/Kat750" style="background-color: orange; color: white; padding: 15px 30px; text-decoration: none; display: inline-block;">Click Here</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- Footer -->
+                <table width="100%" bgcolor="#333" style="color: #fff;">
+                    <tr>
+                        <td align="center" style="padding: 10px;">
+                            &copy; 2023 Your Company. All rights reserved.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
