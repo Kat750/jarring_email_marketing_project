@@ -1,0 +1,1 @@
+# jarring_email_marketing_project is a project for an email marketing company to build a responsive email in HTML, with a design that will work on a range of devices and with a range of email clients. It uses HTML tables, inline CSS and media queries to achieve this. 
